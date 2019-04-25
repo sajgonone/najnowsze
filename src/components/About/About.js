@@ -21,7 +21,7 @@ const About = () => {
                   <h4 className="font-weight-bold">Mariusz Dam</h4>
                   <h6 className="font-weight-bold my-3">
                   <MDBBtn color="danger" rounded> 
-              <a href="https://drive.google.com/file/d/18kmT2P0jYFW53in6Y2kbbq_F6igrcVqR/view" target="_blank" rel="noopener noreferrer">DOWNLOAD MY RESUME</a>                
+              <a href="https://drive.google.com/file/d/1P5kgDe3Wa48jcMUsAJ-RkxebbsT3y-7K/view?usp=sharing" target="_blank" rel="noopener noreferrer">DOWNLOAD MY RESUME</a>                
               </MDBBtn>
                   </h6>
         </section>
