@@ -7,11 +7,13 @@ import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import Contact from './components/Contact/Contact'
 
+import { BrowserRouter } from 'react-router-dom';
+
 
 export class App extends Component {
   render() {
     return (
-      <div>
+      <BrowserRouter>
       <NavBar/>
       <LandingPage/>
       <About/>
@@ -19,7 +21,7 @@ export class App extends Component {
       <Skills/>
       <Contact/>
       <Footer/>
-      </div>
+      </BrowserRouter>
     )
   }
 }

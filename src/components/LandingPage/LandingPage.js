@@ -6,6 +6,7 @@ import '../../anime.scss'
 export class LandingPage extends Component {
   render() {
     return (
+        <div id="home">
         <div id="wrapper">
         <div id="bg"></div>
         <div id="main">
@@ -17,6 +18,7 @@ export class LandingPage extends Component {
         <div className="arrow bounce"></div>
         </div>
         </div> 
+        </div>
         
     )
   }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 export class NavBar extends Component {
@@ -12,19 +13,19 @@ export class NavBar extends Component {
         <input type="checkbox" id="chkToggle"></input>
         <ul className="main-nav" id="js-menu">
           <li>
-            <a href="/" className="nav-links">Home</a>
+            <AnchorLink href="#wrapper" className="nav-links">Home</AnchorLink>
           </li>
           <li>
-            <a href="#about" className="nav-links">About</a>
+            <AnchorLink href="#about" className="nav-links">About</AnchorLink>
           </li>
           <li>
-            <a href="#projects" className="nav-links">Projects</a>
+            <AnchorLink href="#projects" className="nav-links">Projects</AnchorLink>
           </li>
           <li>
-            <a href="#skills" className="nav-links">Skills</a>
+            <AnchorLink href="#skills" className="nav-links">Skills</AnchorLink>
           </li>
           <li>
-            <a href="#contact" className="nav-links">Contact</a>
+            <AnchorLink href="#contact" className="nav-links">Contact</AnchorLink>
           </li>
         </ul>
       </nav>
